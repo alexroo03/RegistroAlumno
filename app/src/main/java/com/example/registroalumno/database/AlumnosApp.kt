@@ -1,4 +1,4 @@
-package com.example.listacompra.database
+package com.example.resgistroalumno.database
 
 import android.app.Application
 import androidx.room.Room

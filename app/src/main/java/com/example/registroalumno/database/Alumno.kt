@@ -1,4 +1,4 @@
-package com.example.listacompra.database
+package com.example.resgistroalumno.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

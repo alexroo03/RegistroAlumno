@@ -1,8 +1,8 @@
 package com.example.registroalumno
 
 import android.os.Bundle
-import com.example.listacompra.database.Alumno
-import com.example.listacompra.database.AlumnosApp
+import com.example.resgistroalumno.database.Alumno
+import com.example.resgistroalumno.database.AlumnosApp
 import com.example.registroalumno.databinding.ActivityUpdateBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -15,7 +15,7 @@ class UpdateActivity : ActivityWithMenus(){
         binding = ActivityUpdateBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.bAAdir.setOnClickListener{
+        binding.bAnadir.setOnClickListener{
             update(Alumno(
                 nombre = binding.nAlumno.text.toString(),
                 curso = binding.nCurso.text.toString(),

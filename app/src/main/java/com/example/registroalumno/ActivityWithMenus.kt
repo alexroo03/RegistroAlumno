@@ -31,7 +31,6 @@ open class ActivityWithMenus: AppCompatActivity() {
         return when (item.itemId){
             R.id.añadir -> {
                 actividadActual = 0;
-                //Hacemos que se abra la pantalla del listado de parques:
                 val intent = Intent(this, MainActivity::class.java)
                 intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
                 startActivity(intent)
@@ -39,7 +38,6 @@ open class ActivityWithMenus: AppCompatActivity() {
             }
             R.id.actualizar -> {
                 actividadActual = 1;
-                //Hacemos que se abra la pantalla del formulario para añadir parques:
                 val intent = Intent(this, UpdateActivity::class.java)
                 startActivity(intent)
                 true
@@ -47,7 +45,6 @@ open class ActivityWithMenus: AppCompatActivity() {
 
             R.id.eliminar -> {
                 actividadActual = 2;
-                //Hacemos que se abra la pantalla del formulario para añadir parques:
                 val intent = Intent(this, DeleteActivity::class.java)
                 startActivity(intent)
                 true

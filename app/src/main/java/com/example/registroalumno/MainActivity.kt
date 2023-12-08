@@ -1,8 +1,8 @@
 package com.example.registroalumno
 
 import android.os.Bundle
-import com.example.listacompra.database.Alumno
-import com.example.listacompra.database.AlumnosApp
+import com.example.resgistroalumno.database.Alumno
+import com.example.resgistroalumno.database.AlumnosApp
 import com.example.registroalumno.databinding.ActivityMainBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
